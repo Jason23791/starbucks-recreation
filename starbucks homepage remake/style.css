@@ -1,0 +1,242 @@
+/* adding border*/
+.product-container {
+    border: 10px solid #ffffff;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*done adding border*/
+
+/*adding font*/
+body {
+    margin: 0px;
+    font-family: "Sodo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+/*done adding font*/
+
+/* navbarcss starts here*/
+.navbar {
+    padding: 20px; 
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 1px 5px 0px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 3px 1px 5px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 3px 1px 5px 0px rgba(0,0,0,0.7);
+    position: sticky;
+}
+
+.nav-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.nav-left div {
+    text-transform: uppercase;
+    font-weight:700;
+    transition: top,left,right,bottom, 100ms ease-in;
+}
+
+.nav-left div:hover,
+.find-a-store:hover{
+    color: #00754a;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+ 
+.nav-left > *,
+.nav-right > * {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 6px 20px 6px 20px;
+    transition: top,left,right,bottom, 100ms ease-in;
+
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+    transition: top,left,right,bottom, 100ms ease-in;
+    
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.sign-in:active,
+.join-now:active{
+        transform: scale(0.96);   
+}
+
+/* navbarcss ends here*/
+
+/* frozen lemonade css starts here*/
+
+.product-title1 {
+    text-align: center;
+    color: #1e3932;
+    margin-top: 40px;
+}
+
+.product-desc1 {
+    text-align: center;
+    font-size: 18px;
+    color: #1e3932;
+}
+
+.product-button1 {
+    border: 1px solid black;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    transition: top,left,right,bottom, 100ms ease-in;
+}
+
+.product-button1:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.product-button1:active {
+    transform: scale(0.96);
+}
+
+
+/* frozen lemonade section css ends here */
+
+/* rewards css starts here*/
+
+.product img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product {
+    display: flex;
+}
+
+.product-left, 
+.product-right {
+    max-width: 50%;
+    width: 50%;
+}
+
+.product-title {
+    text-align: center;
+    color: #1e3932;
+}
+
+.product-desc {
+    text-align: center;
+    color: #1e3932;
+    font-size: 18px;
+}
+
+.product-button {
+    border: 1px solid black;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    transition: top,left,right,bottom, 100ms ease-in;
+}
+
+.product-button:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.product-button:active {
+    transform: scale(0.96);
+}
+
+/* rewards section css ends here */
+
+/* mocha section css starts here */
+
+.product-title2 {
+    color: black;
+    text-align: center;
+}
+
+.product-desc2 {
+    text-align: center;
+    color: black;
+    font-size: 18px;   
+}
+
+/* mocha section css ends here */
+
+
+/* burrito css starts here */
+
+/* burrito css ends here */
+
+
+/* footer section css starts here */
+.footer {
+    padding: 50px;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+  
+  .fa:hover {
+    opacity: 0.6;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+/* Youtube */
+  .fa-youtube {
+    background: red;
+    color: white;
+  }
+
+/* Github */
+.fa-github {
+    background: #000080;
+    color: white;
+}  
+/* footer section css ends here */
